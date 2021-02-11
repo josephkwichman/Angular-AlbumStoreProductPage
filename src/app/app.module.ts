@@ -9,6 +9,7 @@ import { ProductDescriptionComponent } from './product-description/product-descr
 import { ProductService } from './product.service';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,7 @@ import { ProductService } from './product.service';
     BrowserModule,
     FormsModule,
     HttpModule
-  ],
+    ],
   providers: [ProductService],
   bootstrap: [AppComponent]
 })
